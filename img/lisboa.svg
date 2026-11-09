@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e1a7a"/>
+      <stop offset="0.6" stop-color="#e0007a"/>
+      <stop offset="1" stop-color="#f05a8a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d5a8c"/>
+      <stop offset="1" stop-color="#0d2a4a"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <circle cx="790" cy="255" r="85" fill="#ffe08a"/>
+  <rect y="315" width="1200" height="197" fill="url(#sea)"/>
+  <!-- ponte -->
+  <g stroke="#d9412e" stroke-width="10" fill="none">
+    <line x1="560" y1="130" x2="560" y2="345"/>
+    <line x1="1000" y1="130" x2="1000" y2="345"/>
+    <path d="M420 290 Q490 140 560 130 Q780 230 1000 130 Q1100 150 1200 290" stroke-width="5"/>
+    <line x1="400" y1="290" x2="1200" y2="290" stroke-width="12"/>
+  </g>
+  <!-- colina e casas -->
+  <path d="M0 345 Q180 300 330 340 T620 360 L620 512 L0 512 Z" fill="#3a1c5c"/>
+  <g fill="#e9c9a0">
+    <rect x="20" y="380" width="40" height="40"/><rect x="75" y="370" width="45" height="50"/>
+    <rect x="135" y="385" width="40" height="35"/><rect x="190" y="372" width="45" height="48"/>
+    <rect x="250" y="382" width="40" height="38"/><rect x="305" y="375" width="45" height="45"/>
+    <rect x="365" y="388" width="40" height="32"/><rect x="420" y="378" width="45" height="42"/>
+    <rect x="40" y="430" width="45" height="45"/><rect x="100" y="438" width="40" height="37"/>
+    <rect x="160" y="428" width="45" height="47"/><rect x="220" y="440" width="40" height="35"/>
+    <rect x="280" y="430" width="45" height="45"/><rect x="340" y="436" width="40" height="39"/>
+  </g>
+  <g fill="#b8352a">
+    <path d="M15 380 L40 362 L65 380Z"/><path d="M70 370 L97 350 L125 370Z"/>
+    <path d="M130 385 L155 367 L180 385Z"/><path d="M185 372 L212 352 L240 372Z"/>
+    <path d="M245 382 L270 364 L295 382Z"/><path d="M300 375 L327 355 L355 375Z"/>
+    <path d="M360 388 L385 370 L410 388Z"/><path d="M415 378 L442 358 L470 378Z"/>
+    <path d="M35 430 L62 410 L90 430Z"/><path d="M95 438 L120 420 L145 438Z"/>
+    <path d="M155 428 L182 408 L210 428Z"/><path d="M215 440 L240 422 L265 440Z"/>
+    <path d="M275 430 L302 410 L330 430Z"/><path d="M335 436 L360 418 L385 436Z"/>
+  </g>
+  <!-- eletrico -->
+  <line x1="740" y1="345" x2="700" y2="400" stroke="#222" stroke-width="5"/>
+  <rect x="640" y="395" width="250" height="90" rx="14" fill="#f2b705"/>
+  <g fill="#fbe6a6"><rect x="660" y="410" width="45" height="32" rx="5"/><rect x="715" y="410" width="45" height="32" rx="5"/><rect x="770" y="410" width="45" height="32" rx="5"/><rect x="825" y="410" width="45" height="32" rx="5"/></g>
+  <rect width="1200" height="512" fill="url(#shade)"/>
+</svg>
